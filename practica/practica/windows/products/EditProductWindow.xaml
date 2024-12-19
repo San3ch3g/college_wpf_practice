@@ -1,0 +1,76 @@
+﻿<Window x:Class="pracrica.windows.products.EditProductWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Редактирование продукта" Height="300" Width="400"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize">
+    <Grid Background="LightGray">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Идентификатор продукта -->
+        <TextBlock Text="Идентификатор:" 
+                   Grid.Row="0" Grid.Column="0" 
+                   VerticalAlignment="Center" 
+                   Margin="20,20,10,0"/>
+        <TextBox x:Name="ProductIdTextBox" 
+                 Grid.Row="0" Grid.Column="1" 
+                 Width="200" Height="30" 
+                 Margin="0,20,20,0" 
+                 IsReadOnly="True"/>
+
+        <!-- Название продукта -->
+        <TextBlock Text="Название продукта:" 
+                   Grid.Row="1" Grid.Column="0" 
+                   VerticalAlignment="Center" 
+                   Margin="20,20,10,0"/>
+        <TextBox x:Name="ProductNameTextBox" 
+                 Grid.Row="1" Grid.Column="1" 
+                 Width="200" Height="30" 
+                 Margin="0,20,20,0"/>
+
+        <!-- Цена продукта -->
+        <TextBlock Text="Цена продукта:" 
+                   Grid.Row="2" Grid.Column="0" 
+                   VerticalAlignment="Center" 
+                   Margin="20,20,10,0"/>
+        <TextBox x:Name="ProductPriceTextBox" 
+                 Grid.Row="2" Grid.Column="1" 
+                 Width="200" Height="30" 
+                 Margin="0,20,20,0"/>
+
+        <!-- Категория продукта -->
+        <TextBlock Text="Категория:" 
+                   Grid.Row="3" Grid.Column="0" 
+                   VerticalAlignment="Center" 
+                   Margin="20,20,10,0"/>
+        <ComboBox x:Name="CategoryComboBox" 
+                  Grid.Row="3" Grid.Column="1" 
+                  Width="200" Height="30" 
+                  Margin="0,20,20,0"/>
+
+        <!-- Кнопки -->
+        <StackPanel Grid.Row="4" Grid.ColumnSpan="2" 
+                    Orientation="Horizontal" 
+                    HorizontalAlignment="Center" 
+                    Margin="0,20,0,20">
+            <Button Content="Сохранить" 
+                    Width="100" Height="30" 
+                    Margin="10" 
+                    Click="SaveButton_Click"/>
+            <Button Content="Отмена" 
+                    Width="100" Height="30" 
+                    Margin="10" 
+                    Click="CancelButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
