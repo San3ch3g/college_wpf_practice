@@ -109,3 +109,13 @@ D:\git\college_wpf_practice\practica\practica\obj\Debug\practica.pdb
 D:\git\college_wpf_practice\practica\practica\obj\Debug\windows\payments\ReportWindow.baml
 D:\git\college_wpf_practice\practica\practica\obj\Debug\windows\payments\ReportWindow.g.cs
 D:\git\college_wpf_practice\practica\practica\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\git\college_wpf_practice\practica\practica\bin\Debug\EPPlus.dll
+D:\git\college_wpf_practice\practica\practica\bin\Debug\EPPlus.Interfaces.dll
+D:\git\college_wpf_practice\practica\practica\bin\Debug\EPPlus.System.Drawing.dll
+D:\git\college_wpf_practice\practica\practica\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+D:\git\college_wpf_practice\practica\practica\bin\Debug\System.ComponentModel.Annotations.dll
+D:\git\college_wpf_practice\practica\practica\bin\Debug\System.Drawing.Common.dll
+D:\git\college_wpf_practice\practica\practica\bin\Debug\EPPlus.xml
+D:\git\college_wpf_practice\practica\practica\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+D:\git\college_wpf_practice\practica\practica\bin\Debug\System.Drawing.Common.pdb
+D:\git\college_wpf_practice\practica\practica\bin\Debug\System.Drawing.Common.xml

@@ -8,6 +8,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
         <!-- Заголовок -->
@@ -44,5 +45,8 @@
                 </ItemsControl.ItemTemplate>
             </ItemsControl>
         </ScrollViewer>
+
+        <!-- Кнопка для экспорта -->
+        <Button Grid.Row="2" Content="Экспорт в Excel" Click="ExportButton_Click" Width="150" Height="30" HorizontalAlignment="Center" Margin="10"/>
     </Grid>
 </Window>
