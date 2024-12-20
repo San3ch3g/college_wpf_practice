@@ -3,16 +3,68 @@
   "WorkspaceRootPath": "D:\\git\\college_wpf_practice\\practica\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DB55E420-ED77-403D-A389-557CE6DEA700}|practica\\practica.csproj|d:\\git\\college_wpf_practice\\practica\\practica\\windows\\payments\\reportwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB55E420-ED77-403D-A389-557CE6DEA700}|practica\\practica.csproj|solutionrelative:practica\\windows\\payments\\reportwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB55E420-ED77-403D-A389-557CE6DEA700}|practica\\practica.csproj|d:\\git\\college_wpf_practice\\practica\\practica\\windows\\categories\\categorieswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DB55E420-ED77-403D-A389-557CE6DEA700}|practica\\practica.csproj|solutionrelative:practica\\windows\\categories\\categorieswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB55E420-ED77-403D-A389-557CE6DEA700}|practica\\practica.csproj|d:\\git\\college_wpf_practice\\practica\\practica\\windows\\payments\\reportwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{DB55E420-ED77-403D-A389-557CE6DEA700}|practica\\practica.csproj|d:\\git\\college_wpf_practice\\practica\\practica\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB55E420-ED77-403D-A389-557CE6DEA700}|practica\\practica.csproj|solutionrelative:practica\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB55E420-ED77-403D-A389-557CE6DEA700}|practica\\practica.csproj|d:\\git\\college_wpf_practice\\practica\\practica\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DB55E420-ED77-403D-A389-557CE6DEA700}|practica\\practica.csproj|solutionrelative:practica\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB55E420-ED77-403D-A389-557CE6DEA700}|practica\\practica.csproj|D:\\git\\college_wpf_practice\\practica\\practica\\converters\\dateconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB55E420-ED77-403D-A389-557CE6DEA700}|practica\\practica.csproj|solutionrelative:practica\\converters\\dateconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB55E420-ED77-403D-A389-557CE6DEA700}|practica\\practica.csproj|d:\\git\\college_wpf_practice\\practica\\practica\\db\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB55E420-ED77-403D-A389-557CE6DEA700}|practica\\practica.csproj|solutionrelative:practica\\db\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB55E420-ED77-403D-A389-557CE6DEA700}|practica\\practica.csproj|d:\\git\\college_wpf_practice\\practica\\practica\\db\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB55E420-ED77-403D-A389-557CE6DEA700}|practica\\practica.csproj|solutionrelative:practica\\db\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB55E420-ED77-403D-A389-557CE6DEA700}|practica\\practica.csproj|d:\\git\\college_wpf_practice\\practica\\practica\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB55E420-ED77-403D-A389-557CE6DEA700}|practica\\practica.csproj|solutionrelative:practica\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB55E420-ED77-403D-A389-557CE6DEA700}|practica\\practica.csproj|d:\\git\\college_wpf_practice\\practica\\practica\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB55E420-ED77-403D-A389-557CE6DEA700}|practica\\practica.csproj|solutionrelative:practica\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB55E420-ED77-403D-A389-557CE6DEA700}|practica\\practica.csproj|d:\\git\\college_wpf_practice\\practica\\practica\\models\\reportproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB55E420-ED77-403D-A389-557CE6DEA700}|practica\\practica.csproj|solutionrelative:practica\\models\\reportproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB55E420-ED77-403D-A389-557CE6DEA700}|practica\\practica.csproj|d:\\git\\college_wpf_practice\\practica\\practica\\models\\reportcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB55E420-ED77-403D-A389-557CE6DEA700}|practica\\practica.csproj|solutionrelative:practica\\models\\reportcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB55E420-ED77-403D-A389-557CE6DEA700}|practica\\practica.csproj|d:\\git\\college_wpf_practice\\practica\\practica\\windows\\payments\\deletepayment.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DB55E420-ED77-403D-A389-557CE6DEA700}|practica\\practica.csproj|solutionrelative:practica\\windows\\payments\\deletepayment.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB55E420-ED77-403D-A389-557CE6DEA700}|practica\\practica.csproj|d:\\git\\college_wpf_practice\\practica\\practica\\windows\\payments\\editpaymentwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DB55E420-ED77-403D-A389-557CE6DEA700}|practica\\practica.csproj|solutionrelative:practica\\windows\\payments\\editpaymentwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB55E420-ED77-403D-A389-557CE6DEA700}|practica\\practica.csproj|d:\\git\\college_wpf_practice\\practica\\practica\\windows\\payments\\paymentswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DB55E420-ED77-403D-A389-557CE6DEA700}|practica\\practica.csproj|solutionrelative:practica\\windows\\payments\\paymentswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB55E420-ED77-403D-A389-557CE6DEA700}|practica\\practica.csproj|d:\\git\\college_wpf_practice\\practica\\practica\\windows\\payments\\paymentswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB55E420-ED77-403D-A389-557CE6DEA700}|practica\\practica.csproj|solutionrelative:practica\\windows\\payments\\paymentswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB55E420-ED77-403D-A389-557CE6DEA700}|practica\\practica.csproj|D:\\git\\college_wpf_practice\\practica\\practica\\windows\\payments\\reportwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{DB55E420-ED77-403D-A389-557CE6DEA700}|practica\\practica.csproj|solutionrelative:practica\\windows\\payments\\reportwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB55E420-ED77-403D-A389-557CE6DEA700}|practica\\practica.csproj|d:\\git\\college_wpf_practice\\practica\\practica\\converters\\dateconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB55E420-ED77-403D-A389-557CE6DEA700}|practica\\practica.csproj|solutionrelative:practica\\converters\\dateconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB55E420-ED77-403D-A389-557CE6DEA700}|practica\\practica.csproj|d:\\git\\college_wpf_practice\\practica\\practica\\windows\\payments\\reportwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB55E420-ED77-403D-A389-557CE6DEA700}|practica\\practica.csproj|solutionrelative:practica\\windows\\payments\\reportwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,19 +83,196 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CategoriesWindow.xaml",
+              "DocumentMoniker": "D:\\git\\college_wpf_practice\\practica\\practica\\windows\\categories\\CategoriesWindow.xaml",
+              "RelativeDocumentMoniker": "practica\\windows\\categories\\CategoriesWindow.xaml",
+              "ToolTip": "D:\\git\\college_wpf_practice\\practica\\practica\\windows\\categories\\CategoriesWindow.xaml",
+              "RelativeToolTip": "practica\\windows\\categories\\CategoriesWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-20T15:58:19.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\git\\college_wpf_practice\\practica\\practica\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "practica\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\git\\college_wpf_practice\\practica\\practica\\MainWindow.xaml.cs",
+              "RelativeToolTip": "practica\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T15:58:10.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\git\\college_wpf_practice\\practica\\practica\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "practica\\MainWindow.xaml",
+              "ToolTip": "D:\\git\\college_wpf_practice\\practica\\practica\\MainWindow.xaml",
+              "RelativeToolTip": "practica\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-20T15:58:04.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DatabaseConnection.cs",
+              "DocumentMoniker": "D:\\git\\college_wpf_practice\\practica\\practica\\db\\DatabaseConnection.cs",
+              "RelativeDocumentMoniker": "practica\\db\\DatabaseConnection.cs",
+              "ToolTip": "D:\\git\\college_wpf_practice\\practica\\practica\\db\\DatabaseConnection.cs",
+              "RelativeToolTip": "practica\\db\\DatabaseConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T15:57:53.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DatabaseService.cs",
+              "DocumentMoniker": "D:\\git\\college_wpf_practice\\practica\\practica\\db\\DatabaseService.cs",
+              "RelativeDocumentMoniker": "practica\\db\\DatabaseService.cs",
+              "ToolTip": "D:\\git\\college_wpf_practice\\practica\\practica\\db\\DatabaseService.cs",
+              "RelativeToolTip": "practica\\db\\DatabaseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T15:57:06.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "D:\\git\\college_wpf_practice\\practica\\practica\\models\\Payment.cs",
+              "RelativeDocumentMoniker": "practica\\models\\Payment.cs",
+              "ToolTip": "D:\\git\\college_wpf_practice\\practica\\practica\\models\\Payment.cs",
+              "RelativeToolTip": "practica\\models\\Payment.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA9wA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T15:56:50.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\git\\college_wpf_practice\\practica\\practica\\models\\User.cs",
+              "RelativeDocumentMoniker": "practica\\models\\User.cs",
+              "ToolTip": "D:\\git\\college_wpf_practice\\practica\\practica\\models\\User.cs",
+              "RelativeToolTip": "practica\\models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T15:56:48.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ReportProduct.cs",
+              "DocumentMoniker": "D:\\git\\college_wpf_practice\\practica\\practica\\models\\ReportProduct.cs",
+              "RelativeDocumentMoniker": "practica\\models\\ReportProduct.cs",
+              "ToolTip": "D:\\git\\college_wpf_practice\\practica\\practica\\models\\ReportProduct.cs",
+              "RelativeToolTip": "practica\\models\\ReportProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T15:56:47.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReportCategory.cs",
+              "DocumentMoniker": "D:\\git\\college_wpf_practice\\practica\\practica\\models\\ReportCategory.cs",
+              "RelativeDocumentMoniker": "practica\\models\\ReportCategory.cs",
+              "ToolTip": "D:\\git\\college_wpf_practice\\practica\\practica\\models\\ReportCategory.cs",
+              "RelativeToolTip": "practica\\models\\ReportCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T15:56:45.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DeletePayment.xaml",
+              "DocumentMoniker": "D:\\git\\college_wpf_practice\\practica\\practica\\windows\\payments\\DeletePayment.xaml",
+              "RelativeDocumentMoniker": "practica\\windows\\payments\\DeletePayment.xaml",
+              "ToolTip": "D:\\git\\college_wpf_practice\\practica\\practica\\windows\\payments\\DeletePayment.xaml",
+              "RelativeToolTip": "practica\\windows\\payments\\DeletePayment.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-20T15:56:42.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DateConverter.cs",
+              "DocumentMoniker": "D:\\git\\college_wpf_practice\\practica\\practica\\converters\\DateConverter.cs",
+              "RelativeDocumentMoniker": "practica\\converters\\DateConverter.cs",
+              "ToolTip": "D:\\git\\college_wpf_practice\\practica\\practica\\converters\\DateConverter.cs",
+              "RelativeToolTip": "practica\\converters\\DateConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T12:35:46.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EditPaymentWindow.xaml",
+              "DocumentMoniker": "D:\\git\\college_wpf_practice\\practica\\practica\\windows\\payments\\EditPaymentWindow.xaml",
+              "RelativeDocumentMoniker": "practica\\windows\\payments\\EditPaymentWindow.xaml",
+              "ToolTip": "D:\\git\\college_wpf_practice\\practica\\practica\\windows\\payments\\EditPaymentWindow.xaml",
+              "RelativeToolTip": "practica\\windows\\payments\\EditPaymentWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-20T15:56:35.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PaymentsWindow.xaml",
+              "DocumentMoniker": "D:\\git\\college_wpf_practice\\practica\\practica\\windows\\payments\\PaymentsWindow.xaml",
+              "RelativeDocumentMoniker": "practica\\windows\\payments\\PaymentsWindow.xaml",
+              "ToolTip": "D:\\git\\college_wpf_practice\\practica\\practica\\windows\\payments\\PaymentsWindow.xaml",
+              "RelativeToolTip": "practica\\windows\\payments\\PaymentsWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-20T15:56:11.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PaymentsWindow.xaml.cs",
+              "DocumentMoniker": "D:\\git\\college_wpf_practice\\practica\\practica\\windows\\payments\\PaymentsWindow.xaml.cs",
+              "RelativeDocumentMoniker": "practica\\windows\\payments\\PaymentsWindow.xaml.cs",
+              "ToolTip": "D:\\git\\college_wpf_practice\\practica\\practica\\windows\\payments\\PaymentsWindow.xaml.cs",
+              "RelativeToolTip": "practica\\windows\\payments\\PaymentsWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T15:55:46.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "ReportWindow.xaml.cs",
               "DocumentMoniker": "D:\\git\\college_wpf_practice\\practica\\practica\\windows\\payments\\ReportWindow.xaml.cs",
               "RelativeDocumentMoniker": "practica\\windows\\payments\\ReportWindow.xaml.cs",
               "ToolTip": "D:\\git\\college_wpf_practice\\practica\\practica\\windows\\payments\\ReportWindow.xaml.cs",
               "RelativeToolTip": "practica\\windows\\payments\\ReportWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-20T12:51:23.692Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 14,
               "Title": "ReportWindow.xaml",
               "DocumentMoniker": "D:\\git\\college_wpf_practice\\practica\\practica\\windows\\payments\\ReportWindow.xaml",
               "RelativeDocumentMoniker": "practica\\windows\\payments\\ReportWindow.xaml",
@@ -51,19 +280,6 @@
               "RelativeToolTip": "practica\\windows\\payments\\ReportWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-12-20T12:36:09.387Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DateConverter.cs",
-              "DocumentMoniker": "D:\\git\\college_wpf_practice\\practica\\practica\\converters\\DateConverter.cs",
-              "RelativeDocumentMoniker": "practica\\converters\\DateConverter.cs",
-              "ToolTip": "D:\\git\\college_wpf_practice\\practica\\practica\\converters\\DateConverter.cs",
-              "RelativeToolTip": "practica\\converters\\DateConverter.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAIwBcAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T12:35:46.557Z",
               "EditorCaption": ""
             }
           ]

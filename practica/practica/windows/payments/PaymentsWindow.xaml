@@ -6,7 +6,6 @@
         WindowStartupLocation="CenterScreen"
         ResizeMode="NoResize">
     <Window.Resources>
-        <!-- Регистрируем DateConverter как ресурс -->
         <converters:DateConverter x:Key="DateConverter"/>
     </Window.Resources>
     <Grid Background="LightGray">
@@ -47,7 +46,6 @@
                 <DataGridTextColumn Header="Название продукта" Binding="{Binding ProductName}" Width="*"/>
                 <DataGridTextColumn Header="Количество" Binding="{Binding Quantity}" Width="*" SortMemberPath="Quantity"/>
                 <DataGridTextColumn Header="Итоговая сумма" Binding="{Binding TotalAmount}" Width="*" SortMemberPath="TotalAmount"/>
-                <!-- Применяем DateConverter для форматирования даты -->
                 <DataGridTextColumn Header="Дата платежа" Binding="{Binding PaymentDate, Converter={StaticResource DateConverter}}" Width="*" SortMemberPath="PaymentDate"/>
             </DataGrid.Columns>
         </DataGrid>

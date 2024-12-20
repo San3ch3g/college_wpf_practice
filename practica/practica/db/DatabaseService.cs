@@ -70,7 +70,6 @@ namespace pracrica.db
                         return default(T);
                     }
 
-                    // Если T является nullable типом, приводим к базовому типу
                     if (Nullable.GetUnderlyingType(typeof(T)) != null)
                     {
                         return (T)Convert.ChangeType(result, Nullable.GetUnderlyingType(typeof(T)));
@@ -305,25 +304,20 @@ namespace pracrica.db
         }
         public string GetCategoryNameByProductId(int productId)
         {
-            // Запрос для получения CategoryId по ProductId
             string query = "SELECT CategoryId FROM Products WHERE Id = @ProductId";
 
-            // Выполняем запрос и получаем CategoryId
             var categoryId = ExecuteScalar<int?>(query, new SqlParameter[]
             {
         new SqlParameter("@ProductId", productId)
             });
 
-            // Если CategoryId не найден, возвращаем null или пустую строку
             if (categoryId == null)
             {
                 return null;
             }
 
-            // Запрос для получения названия категории по CategoryId
             string categoryQuery = "SELECT Name FROM Categories WHERE Id = @CategoryId";
 
-            // Выполняем запрос и получаем название категории
             var categoryName = ExecuteScalar<string>(categoryQuery, new SqlParameter[]
             {
         new SqlParameter("@CategoryId", categoryId)

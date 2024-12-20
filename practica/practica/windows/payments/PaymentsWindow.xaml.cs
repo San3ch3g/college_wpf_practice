@@ -9,7 +9,7 @@ namespace pracrica.windows.payments
     public partial class PaymentsWindow : Window
     {
         private readonly DatabaseService _dbService;
-        private Payment[] _allPayments; // Храним все платежи для фильтрации
+        private Payment[] _allPayments;
 
         public PaymentsWindow()
         {
@@ -28,8 +28,8 @@ namespace pracrica.windows.payments
                 payment.ProductName = _dbService.GetProductNameById(payment.ProductId);
             }
 
-            _allPayments = payments.ToArray(); // Сохраняем все платежи
-            ApplyFilters(); // Применяем фильтры
+            _allPayments = payments.ToArray();
+            ApplyFilters();
         }
 
         private void ApplyFilters()
@@ -40,13 +40,11 @@ namespace pracrica.windows.payments
 
             var filteredPayments = _allPayments.AsQueryable();
 
-            // Фильтр по названию продукта
             if (!string.IsNullOrEmpty(searchText))
             {
                 filteredPayments = filteredPayments.Where(p => p.ProductName.ToLower().Contains(searchText));
             }
 
-            // Фильтр по дате
             if (startDate != null)
             {
                 filteredPayments = filteredPayments.Where(p => p.PaymentDate >= startDate);
@@ -118,11 +116,9 @@ namespace pracrica.windows.payments
 
         private void Report_Click(object sender, RoutedEventArgs e)
         {
-            // Получаем выбранные даты из DatePicker
             DateTime? startDate = StartDatePicker.SelectedDate;
             DateTime? endDate = EndDatePicker.SelectedDate;
 
-            // Открываем окно отчёта, передавая выбранные даты
             var reportWindow = new ReportWindow(startDate, endDate);
             reportWindow.ShowDialog();
         }

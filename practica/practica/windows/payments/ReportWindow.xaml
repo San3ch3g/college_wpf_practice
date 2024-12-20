@@ -11,19 +11,15 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <!-- Заголовок -->
         <TextBlock Grid.Row="0" Text="Отчёт по категориям" FontSize="16" HorizontalAlignment="Center" Margin="10"/>
 
-        <!-- Список категорий -->
         <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
             <ItemsControl x:Name="ReportDataGrid" ItemsSource="{Binding}">
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
                         <StackPanel>
-                            <!-- Название категории -->
                             <TextBlock Text="{Binding CategoryName}" FontWeight="Bold" FontSize="14" Margin="10,5,10,0"/>
 
-                            <!-- Список товаров в категории -->
                             <ItemsControl ItemsSource="{Binding Products}">
                                 <ItemsControl.ItemTemplate>
                                     <DataTemplate>
@@ -35,7 +31,6 @@
                                 </ItemsControl.ItemTemplate>
                             </ItemsControl>
 
-                            <!-- Итоговая сумма категории -->
                             <StackPanel Orientation="Horizontal" Margin="20,5,10,10">
                                 <TextBlock Text="Итого:" FontWeight="Bold" Width="300"/>
                                 <TextBlock Text="{Binding TotalAmount, StringFormat='{}{0:F2} р.'}" FontWeight="Bold" Width="100" HorizontalAlignment="Right"/>
@@ -46,7 +41,6 @@
             </ItemsControl>
         </ScrollViewer>
 
-        <!-- Кнопка для экспорта -->
         <Button Grid.Row="2" Content="Экспорт в Excel" Click="ExportButton_Click" Width="150" Height="30" HorizontalAlignment="Center" Margin="10"/>
     </Grid>
 </Window>
