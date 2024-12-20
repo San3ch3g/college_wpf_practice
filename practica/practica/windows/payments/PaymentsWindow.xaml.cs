@@ -118,7 +118,13 @@ namespace pracrica.windows.payments
 
         private void Report_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Открыть экран отчётов");
+            // Получаем выбранные даты из DatePicker
+            DateTime? startDate = StartDatePicker.SelectedDate;
+            DateTime? endDate = EndDatePicker.SelectedDate;
+
+            // Открываем окно отчёта, передавая выбранные даты
+            var reportWindow = new ReportWindow(startDate, endDate);
+            reportWindow.ShowDialog();
         }
     }
 }

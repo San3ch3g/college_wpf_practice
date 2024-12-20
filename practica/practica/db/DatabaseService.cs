@@ -70,6 +70,12 @@ namespace pracrica.db
                         return default(T);
                     }
 
+                    // Если T является nullable типом, приводим к базовому типу
+                    if (Nullable.GetUnderlyingType(typeof(T)) != null)
+                    {
+                        return (T)Convert.ChangeType(result, Nullable.GetUnderlyingType(typeof(T)));
+                    }
+
                     return (T)Convert.ChangeType(result, typeof(T));
                 }
             }
@@ -104,7 +110,7 @@ namespace pracrica.db
                 new SqlParameter("@Password", hashedPassword)
             });
 
-            return rowsAffected > 0; 
+            return rowsAffected > 0;
         }
 
         public List<Category> GetCategories()
@@ -127,7 +133,7 @@ namespace pracrica.db
 
             return rowsAffected > 0;
         }
-        
+
         public bool UpdateCategory(int id, string name)
         {
             string query = "UPDATE Categories SET Name = @Name WHERE Id = @Id";
@@ -139,7 +145,7 @@ namespace pracrica.db
 
             return rowsAffected > 0;
         }
-        
+
         public bool DeleteCategory(int id)
         {
             string query = "DELETE FROM Categories WHERE Id = @Id";
@@ -297,5 +303,33 @@ namespace pracrica.db
 
             return result;
         }
+        public string GetCategoryNameByProductId(int productId)
+        {
+            // Запрос для получения CategoryId по ProductId
+            string query = "SELECT CategoryId FROM Products WHERE Id = @ProductId";
+
+            // Выполняем запрос и получаем CategoryId
+            var categoryId = ExecuteScalar<int?>(query, new SqlParameter[]
+            {
+        new SqlParameter("@ProductId", productId)
+            });
+
+            // Если CategoryId не найден, возвращаем null или пустую строку
+            if (categoryId == null)
+            {
+                return null;
+            }
+
+            // Запрос для получения названия категории по CategoryId
+            string categoryQuery = "SELECT Name FROM Categories WHERE Id = @CategoryId";
+
+            // Выполняем запрос и получаем название категории
+            var categoryName = ExecuteScalar<string>(categoryQuery, new SqlParameter[]
+            {
+        new SqlParameter("@CategoryId", categoryId)
+            });
+
+            return categoryName;
+        }
     }
-}
+    }

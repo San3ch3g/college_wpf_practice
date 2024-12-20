@@ -106,3 +106,6 @@ D:\git\college_wpf_practice\practica\practica\obj\Debug\practica.csproj.CoreComp
 D:\git\college_wpf_practice\practica\practica\obj\Debug\practica.csproj.Up2Date
 D:\git\college_wpf_practice\practica\practica\obj\Debug\practica.exe
 D:\git\college_wpf_practice\practica\practica\obj\Debug\practica.pdb
+D:\git\college_wpf_practice\practica\practica\obj\Debug\windows\payments\ReportWindow.baml
+D:\git\college_wpf_practice\practica\practica\obj\Debug\windows\payments\ReportWindow.g.cs
+D:\git\college_wpf_practice\practica\practica\obj\Debug\GeneratedInternalTypeHelper.g.cs

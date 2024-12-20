@@ -71,8 +71,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="converters\DateConverter.cs" />
     <Compile Include="db\DatabaseConnection.cs" />
     <Compile Include="db\DatabaseService.cs" />
+    <Compile Include="models\ReportCategory.cs" />
+    <Compile Include="models\ReportProduct.cs" />
     <Compile Include="windows\categories\CategoriesWindow.xaml.cs">
       <DependentUpon>CategoriesWindow.xaml</DependentUpon>
     </Compile>
@@ -99,6 +102,9 @@
     </Compile>
     <Compile Include="windows\payments\PaymentsWindow.xaml.cs">
       <DependentUpon>PaymentsWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="windows\payments\ReportWindow.xaml.cs">
+      <DependentUpon>ReportWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="windows\products\CreateProduct.xaml.cs">
       <DependentUpon>CreateProduct.xaml</DependentUpon>
@@ -163,6 +169,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="windows\payments\ReportWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="windows\products\CreateProduct.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -185,7 +195,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="models\Category.cs" />   
+    <Compile Include="models\Category.cs" />
     <Compile Include="models\Payment.cs" />
     <Compile Include="models\Product.cs" />
     <Compile Include="models\User.cs" />
