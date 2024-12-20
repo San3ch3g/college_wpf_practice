@@ -1,4 +1,6 @@
-﻿using System.Windows;
+﻿using System;
+using System.Linq;
+using System.Windows;
 using pracrica.db;
 using pracrica.models;
 
@@ -7,6 +9,7 @@ namespace pracrica.windows.payments
     public partial class PaymentsWindow : Window
     {
         private readonly DatabaseService _dbService;
+        private Payment[] _allPayments; // Храним все платежи для фильтрации
 
         public PaymentsWindow()
         {
@@ -25,7 +28,51 @@ namespace pracrica.windows.payments
                 payment.ProductName = _dbService.GetProductNameById(payment.ProductId);
             }
 
-            PaymentsDataGrid.ItemsSource = payments;
+            _allPayments = payments.ToArray(); // Сохраняем все платежи
+            ApplyFilters(); // Применяем фильтры
+        }
+
+        private void ApplyFilters()
+        {
+            var searchText = SearchTextBox.Text.ToLower();
+            var startDate = StartDatePicker.SelectedDate;
+            var endDate = EndDatePicker.SelectedDate;
+
+            var filteredPayments = _allPayments.AsQueryable();
+
+            // Фильтр по названию продукта
+            if (!string.IsNullOrEmpty(searchText))
+            {
+                filteredPayments = filteredPayments.Where(p => p.ProductName.ToLower().Contains(searchText));
+            }
+
+            // Фильтр по дате
+            if (startDate != null)
+            {
+                filteredPayments = filteredPayments.Where(p => p.PaymentDate >= startDate);
+            }
+
+            if (endDate != null)
+            {
+                filteredPayments = filteredPayments.Where(p => p.PaymentDate <= endDate);
+            }
+
+            PaymentsDataGrid.ItemsSource = filteredPayments.ToList();
+        }
+
+        private void SearchTextBox_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
+        {
+            ApplyFilters();
+        }
+
+        private void StartDatePicker_SelectedDateChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
+        {
+            ApplyFilters();
+        }
+
+        private void EndDatePicker_SelectedDateChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
+        {
+            ApplyFilters();
         }
 
         private void CreatePayment_Click(object sender, RoutedEventArgs e)
@@ -68,6 +115,7 @@ namespace pracrica.windows.payments
                 MessageBox.Show("Выберите платеж для удаления!");
             }
         }
+
         private void Report_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Открыть экран отчётов");

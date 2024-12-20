@@ -185,8 +185,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="models\Category.cs" />
-    <Compile Include="models\Discount.cs" />
+    <Compile Include="models\Category.cs" />   
     <Compile Include="models\Payment.cs" />
     <Compile Include="models\Product.cs" />
     <Compile Include="models\User.cs" />

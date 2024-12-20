@@ -28,6 +28,7 @@ namespace pracrica.windows.auth
             if (_dbService.RegisterUser(firstName, lastName, login, hashedPassword))
             {
                 MessageBox.Show("Регистрация успешна!");
+                this.DialogResult = true;
                 this.Close();
             }
             else

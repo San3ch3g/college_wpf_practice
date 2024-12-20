@@ -30,6 +30,7 @@ namespace pracrica.windows.auth
             if (BCrypt.Net.BCrypt.Verify(password, user.Password))
             {
                 MessageBox.Show("Успешный вход!");
+                this.DialogResult = true;
                 this.Close();
             }
             else

@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\practica\\db"
+    "\\practica",
+    "\\practica\\db",
+    "\\practica\\windows",
+    "\\practica\\windows\\payments"
   ],
-  "SelectedNode": "\\.env",
+  "SelectedNode": "\\practica\\db\\DatabaseConnection.cs",
   "PreviewInSolutionExplorer": false
 }

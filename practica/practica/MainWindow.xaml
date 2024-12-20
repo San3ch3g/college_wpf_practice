@@ -6,18 +6,21 @@
         xmlns:local="clr-namespace:pracrica"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <!-- Меню -->
-        <Menu VerticalAlignment="Top">
-            <MenuItem Header="Категория" Click="Category_Click"/>
-            <MenuItem Header="Продукция" Click="Product_Click"/>
-            <MenuItem Header="Платежи" Click="Payment_Click"/>
-        </Menu>
+	<Grid>
+		<Menu VerticalAlignment="Top">
+			<MenuItem x:Name="CategoryMenuItem" Header="Категория" Click="Category_Click"/>
+			<MenuItem x:Name="ProductMenuItem" Header="Продукция" Click="Product_Click"/>
+			<MenuItem x:Name="PaymentMenuItem" Header="Платежи" Click="Payment_Click"/>
+		</Menu>
 
-        <!-- Кнопки "Войти" и "Зарегистрироваться" -->
-        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal">
-            <Button Content="Войти" Width="120" Height="30" Click="Login_Click" Margin="20"/>
-            <Button Content="Зарегистрироваться" Width="120" Height="30" Click="Register_Click" Margin="20"/>
-        </StackPanel>
-    </Grid>
+		<StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal">
+			<Button x:Name="LoginButton" Content="Войти" Width="120" Height="30" Click="Login_Click" Margin="20"/>
+			<Button x:Name="RegisterButton" Content="Зарегистрироваться" Width="120" Height="30" Click="Register_Click" Margin="20"/>
+		</StackPanel>
+
+		<StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical">
+			<TextBlock x:Name="LoggedInText" Text="Вы авторизованы" Visibility="Collapsed" FontSize="16" Margin="0,0,0,20"/>
+			<Button x:Name="LogoutButton" Content="Выйти" Width="120" Height="30" Click="Logout_Click" Visibility="Collapsed"/>
+		</StackPanel>
+	</Grid>
 </Window>
